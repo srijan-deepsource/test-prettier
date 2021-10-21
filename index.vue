@@ -1,8 +1,8 @@
 <script lang="ts">
-import { Vue, Component } from "nuxt-property-decorator"
+import { Vue, Component } from 'nuxt-property-decorator'
 
 @Component({
-    middleware: ["auth", "redirectToHome"],
+    middleware: ['auth', 'redirectToHome'],
     meta: {
         auth: {
             strict: true,
